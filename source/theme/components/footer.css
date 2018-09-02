@@ -6,7 +6,7 @@
     flex-direction: column;
     max-width: 930px;
     margin: 0 auto 0;
-    padding: 0 55px 38px 75px;
+    padding: 0 55px 38px 40px;
     box-sizing: content-box;
 
     & ul {

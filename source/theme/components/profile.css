@@ -7,7 +7,7 @@
     margin: 0 auto;
     max-width: 930px;
     border-bottom: 1px solid var(--paletteColor6);
-    padding: 50px 0;
+    padding: 50px 0 0px;
 
     & .avatar {
         box-sizing: content-box;
@@ -29,6 +29,7 @@
 
     & .main {
         padding-top: 12px;
+        width: 65%;
 
         & .nickname {
             display: flex;
@@ -71,6 +72,11 @@
             font-size: 16px;
             font-weight: 600;
             line-height: 1;
+            margin-bottom: 10px;
+        }
+
+        & p {
+            line-height: 1.2;
         }
     }
 
